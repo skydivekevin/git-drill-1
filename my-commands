@@ -1,0 +1,15 @@
+ 1382  mkdir git-drill-1
+ 1383  cd git-drill-1
+ 1384  git init
+ 1385  touch readme.md index.html style.css
+ 1386  git remote add origin git@github.com:skydivekevin/git-drill-1.git
+ 1387  git add index.html
+ 1388  git status
+ 1389  git commit -m "commit index.html"
+ 1390  git add -A
+ 1391  git reset
+ 1392  touch app.js
+ 1393  git add -A
+ 1394  git commit -m "commit with caption for gif"
+ 1395  git log
+ 1396  git push origin master
